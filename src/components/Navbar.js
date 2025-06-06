@@ -18,10 +18,7 @@ export default function Navbar(props1) {
                         </li>
 
                     </ul>
-                    {/* <form className="d-flex" role="search">
-                        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn btn-outline-success" type="submit">Search</button>
-                    </form> */}
+                   
 
                     <div className="form-check form-switch">
                     <input className="form-check-input" onClick={props1.toggleMode} type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
@@ -33,11 +30,7 @@ export default function Navbar(props1) {
     )
 }
 
-// Navbar.propTypes={
-//     title:Proptypes.string,
-//     home:Proptypes.string,
 
-// }
 
 Navbar.defaultProps={
     title:'this is me',
@@ -49,12 +42,3 @@ Navbar.propTypes={
     home:Proptypes.string,
 }
 
-// Navbar.propTypes={
-//     title: Proptypes.string,
-//         home: Proptypes.number,
-// }
-
-// Navbar.propTypes={
-//     title:Proptypes.string,
-//     home:Proptypes.number,
-// }

@@ -41,3 +41,12 @@
   color:rgb(209, 48, 59);
 
 }
+
+
+.container.my-3 {
+  padding: 20px;
+  background-color: #a89393;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
